@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root {
+  --background-main: linear-gradient(180deg, #615dad, #ffc8da);
+  --background-upotavka: #283e50;
+  --text: #ffffff;
+  --pravidla-btn: #1fcca4;
+  --pravidla-btn-hover: #1cbb96;
+  --hra-btn: #0197f6;
+  --hra-btn-hover: #0090e9;
+}
+
+body {
+  background: var(--background-main);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  align-items: center;
+  color: var(--text);
+}
+
+.upoutavka {
+  background: var(--background-upotavka);
+  box-align: center;
+  width: 340px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+}
+
+.nadpis {
+  font-family: 'Lobster', cursive;
+  /* color: var(--text); */
+  text-align: center;
+  font-size: xx-large;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+.popisek {
+  /* color: var(--text); */
+  text-align: center;
+  font-size: large;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.pravidla-btn {
+  background: var(--pravidla-btn);
+  box-align: center;
+  margin-top: 3px;
+  margin-bottom: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.hra-btn {
+  background: var(--hra-btn);
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text);
+  font-size: large;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pravidla-btn:hover {
+  background: var(--pravidla-btn-hover);
+}
+
+.hra-btn:hover {
+  background: var(--hra-btn-hover);
+}
+
+.obrazek img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0px 0px;
+}
